@@ -63,7 +63,7 @@
   //FRONT SIDE STYLING
   &__picture {
     background-size: cover;
-    height: 25rem;
+    height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -141,6 +141,8 @@
   }
 
   &__details {
+    padding: 3rem;
+
     ul {
       list-style: none;
       width: 80%;
@@ -169,6 +171,7 @@
   }
 
   &__price-box {
+    text-align: center;
     color: $color-white;
     margin-bottom: 8rem;
   }
@@ -220,7 +223,7 @@
     }
 
     &__price-box {
-      margin-bottom: 8rem;
+      margin-bottom: 3rem;
     }
 
     &__price-value {

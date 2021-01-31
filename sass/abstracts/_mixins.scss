@@ -42,7 +42,7 @@ BREAKPOINT ARGUEMENT CHOICES
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       //600 div 16 = 37.5em
       @content;
     }
